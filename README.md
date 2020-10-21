@@ -2,14 +2,6 @@
 
 wget https://github.com/anamulbahar/rmrb.git
 
-cp rm.tar.gz /usr/local
+cd rmrb
 
-cd /usr/local
-
-gunzip rm.tar.gz
-
-tar xvf rm.tar.gz
-
-cd RepeatMasker
-
-perl ./configure
+bash install.sh
